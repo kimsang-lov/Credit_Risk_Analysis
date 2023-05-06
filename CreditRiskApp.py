@@ -5,7 +5,8 @@ from sklearn.base import TransformerMixin, BaseEstimator
 
 # Load the trained machine learning model
 # attrib_adder = joblib.load('/home/kafka/Documents/CreditRiskAnalysis/attrib_adder.joblib')
-model = joblib.load('/home/kafka/Documents/CreditRiskAnalysis/XGB_Pipeline.joblib')
+
+model = joblib.load('XGB_Pipeline.joblib')
 
 # Define the features used by the model
 features = ['Age', 'Annual Income', 'Home Status', 'Employment Length', 'Loan Intent',
