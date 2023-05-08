@@ -125,7 +125,7 @@ st.code('''
     data = pd.read_csv("Datasets/credit_risk_dataset.csv")
     data.head()''')
 
-data = pd.read_csv('~/Documents/CreditRiskAnalysis/Datasets/credit_risk_dataset.csv')
+data = pd.read_csv('/CreditRiskAnalysis/Datasets/credit_risk_dataset.csv')
 st.write(data.head())
 
 st.markdown('''
